@@ -1,0 +1,111 @@
+/* EXERCICE 1 */
+h1 {
+    text-align: center;
+    color: red;
+    box-shadow: 10px;
+}
+h2 {
+    text-decoration: underline;
+}
+article>section>h2{
+    color: green;
+
+}
+article h2 , section h2{
+    color: blue;
+    font-family:'Times New Roman', Times, serif;
+}
+h1:hover{
+    box-shadow: 10px;
+}
+
+
+/* EXERCICE 2 */
+
+.box {
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    transition:(x,100px; Y,100px) ;
+    rotate: 40deg;
+}
+@media screen and (max-width:700px){
+    .box1{
+            background-color: rgb(237, 30, 30);
+    }   
+}
+@media screen and (min-width:700px){
+    .box1{
+            background-color: rgb(46, 228, 18);
+    }   
+}
+
+/* EXERCICE 3 */
+.menu {
+    background-color: rgb(47, 44, 223);
+    display: flex;
+    justify-content: space-between;
+}
+.about {
+    padding-left: 15px;
+    color: aliceblue;
+    align-items: space-between;
+    font-size: 20px;
+
+}
+.chose{
+    color: aliceblue;
+}
+.chose a {
+    color: aliceblue;
+    padding-right: 1cm;
+}
+.chose a:hover{
+    color: rgb(14, 17, 17);
+    font-size: 20px;
+}
+/* EXERCICE 4 */
+.box4{
+    background-color: black;
+    height: 70%;
+    width: 100%;
+}
+.boxE4{
+    background-color: aliceblue;
+    height: 4cm;
+    width: 4cm;
+}
+.ligne1{
+    display: flex;
+    justify-content: space-between;
+
+}
+.ligne2{
+    display: flex;
+    justify-content: center;
+}
+
+/* EXERCICE 5 */
+
+
+  #boite {
+    background-color: red;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    animation-name: redBox; 
+    animation-duration: 2s; 
+    animation-iteration-count: infinite; }
+
+@keyframes redBox {
+    0% {
+      left: 0; 
+    }
+    50% {
+      left: 50%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+
